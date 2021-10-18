@@ -1,0 +1,115 @@
+.contactContainer {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.contactContainer .fa-edit:hover {
+  color: green;
+  cursor: pointer;
+}
+.contactContainer .fa-trash-alt:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.addNewContact {
+  border: 0;
+  color: white;
+  background-color: #069606;
+  height: 35px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.addNewContact:hover {
+  background-color: green;
+}
+
+.pagination > li {
+  background-color: #eff1f3 !important;
+  color: #5a5a5a;
+}
+
+.pagination > li:focus,
+.pagination > li:hover {
+  background-color: #e6e2e2 !important;
+  border-color: #c9c8c8;
+}
+
+.pagination > .active {
+  color: #00B1E1;
+  background-color: #ffffff !important;
+  border: solid 1px #00B1E1 !important;
+}
+
+.pagination > .active:hover {
+  color: #00B1E1;
+  background-color: #eff1f3 !important;
+  border: solid 1px #838383 !important;
+}
+
+input {
+  border: 1px solid #d6d5d5;
+  border-radius: 5px;
+  height: 30px;
+  caret-color: #b8b8b8;
+  width: 20%;
+  margin-left: 10px;
+}
+input:focus {
+  outline: none !important;
+  border: 2px solid #d6d5d5;
+}
+
+.fa-exclamation-triangle {
+  color: #f3f30c;
+}
+
+.modal-body input {
+  border: 1px solid #d6d5d5;
+  border-radius: 5px;
+  height: 30px;
+  caret-color: #d6d5d5;
+  width: 50%;
+  margin-left: 10px;
+}
+.modal-body input:focus {
+  outline: none !important;
+  border: 2px solid #d6d5d5;
+}
+
+.modal-footer button {
+  border: 0;
+  color: white;
+  background-color: #069606;
+  height: 35px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.modal-footer button:hover {
+  background-color: green;
+}
+.modal-footer .close,
+.modal-footer .cancel {
+  background-color: #929292;
+}
+.modal-footer .close:hover,
+.modal-footer .cancel:hover {
+  background-color: #707070;
+}
+.modal-footer .delete {
+  background-color: red;
+}
+.modal-footer .delete:hover {
+  background-color: #d80707;
+}
+
+.disabled {
+  background-color: #a5a4a4 !important;
+  cursor: not-allowed;
+}
+/*# sourceMappingURL=contact-listing.component.css.map */

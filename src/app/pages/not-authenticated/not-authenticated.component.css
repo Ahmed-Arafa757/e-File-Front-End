@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+div {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 10%;
+}
+div span {
+  cursor: pointer;
+  color: blue;
+}
+div span:hover {
+  color: red;
+}
+/*# sourceMappingURL=not-authenticated.component.css.map */

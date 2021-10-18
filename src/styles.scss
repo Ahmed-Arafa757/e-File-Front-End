@@ -1,0 +1,12 @@
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+body,
+html {
+  background-color: #f8f7f7 !important;
+}
+
+button:focus,
+button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}

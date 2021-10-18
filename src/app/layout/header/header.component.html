@@ -1,0 +1,14 @@
+<div class="container-fluid bg-white header">
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <img class="mt-2 mb-2" src="assets/images/logo.png" alt="" width="50%">
+    </div>
+    <div *ngIf='isLogged' class="col-md-4 d-flex justify-content-center align-self-center">
+        <h5 >Welcome {{loggedInUser}}</h5>
+    </div>
+    <div *ngIf='isLogged' class="col-md-4 d-flex justify-content-center align-self-center">
+
+      <button class="logout me-4 rounded-3" (click)='onLogout()'>Logout</button>
+    </div>
+  </div>
+</div>
